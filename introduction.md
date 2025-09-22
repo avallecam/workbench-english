@@ -35,6 +35,11 @@ Carpentries lesson template:
  3. `keypoints` are displayed at the end of the episode to reinforce the
     objectives.
 
+
+``` r
+library(RcppParallel)
+```
+
 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: instructor
 
 Inline instructor notes can help inform instructors of timing challenges
