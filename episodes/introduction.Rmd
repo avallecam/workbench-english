@@ -117,6 +117,8 @@ uk_pop <- population(
 uk_pop
 ```
 
+diagrama
+
 ```mermaid
 flowchart LR
     accTitle: SIR compartmental model
@@ -125,6 +127,7 @@ flowchart LR
     I -->|"recovery<br>(recovery rate &gamma;)"| R
 ```
 
+fin
 
 ::::::::::::::::::::::::::::::::::::: keypoints 
 
