@@ -151,6 +151,8 @@ Dem. grp. 1:            1
 [1,] 0.9999 1e-04    0    0
 ```
 
+diagrama
+
 ```mermaid
 flowchart LR
     accTitle: SIR compartmental model
@@ -159,6 +161,7 @@ flowchart LR
     I -->|"recovery<br>(recovery rate &gamma;)"| R
 ```
 
+fin
 
 ::::::::::::::::::::::::::::::::::::: keypoints 
 
