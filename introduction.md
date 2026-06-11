@@ -107,6 +107,50 @@ dynamic reports with {knitr}, so we now use mathjax to describe this:
 
 Cool, right?
 
+
+``` r
+library(epidemics)
+
+uk_pop <- population(
+  name = "UK population",
+  contact_matrix = matrix(1),
+  demography_vector = 67e6,
+  initial_conditions = matrix(
+    c(0.9999, 0.0001, 0, 0),
+    nrow = 1, ncol = 4
+  )
+)
+
+uk_pop
+```
+
+``` output
+<population> object
+```
+
+``` output
+
+ Population name: 
+```
+
+``` output
+"UK population"
+```
+
+``` output
+
+ Demography 
+Dem. grp. 1: 67,000,000 (100%)
+
+ Contact matrix 
+             Dem. grp. 1:
+Dem. grp. 1:            1
+
+ Initial Conditions 
+       [,1]  [,2] [,3] [,4]
+[1,] 0.9999 1e-04    0    0
+```
+
 ::::::::::::::::::::::::::::::::::::: keypoints 
 
 - Use `.md` files for episodes when you want static content
