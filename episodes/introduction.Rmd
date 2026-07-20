@@ -127,6 +127,15 @@ flowchart LR
     I -->|"recovery<br>(recovery rate &gamma;)"| R
 ```
 
+use `PPgp/wpp2024`
+
+```{r}
+library(wpp2024)
+data("popAge1dt")
+str(popAge1dt)
+```
+
+
 fin
 
 ::::::::::::::::::::::::::::::::::::: keypoints 
