@@ -1413,10 +1413,9 @@
       "LazyData": "no",
       "RemoteType": "github",
       "RemoteHost": "api.github.com",
-      "RemoteRepo": "wpp2024",
       "RemoteUsername": "PPgp",
-      "RemotePkgRef": "PPgp/wpp2024",
-      "RemoteRef": "HEAD",
+      "RemoteRepo": "wpp2024",
+      "RemoteRef": "main",
       "RemoteSha": "2da7768ae64fc74105d3f9e98f9a74d37b62f99a"
     },
     "xfun": {
