@@ -161,6 +161,46 @@ flowchart LR
     I -->|"recovery<br>(recovery rate &gamma;)"| R
 ```
 
+use `PPgp/wpp2024`
+
+
+``` r
+library(wpp2024)
+```
+
+``` output
+Loading required package: data.table
+```
+
+``` output
+
+Attaching package: 'data.table'
+```
+
+``` output
+The following object is masked from 'package:base':
+
+    %notin%
+```
+
+``` r
+data("popAge1dt")
+str(popAge1dt)
+```
+
+``` output
+Classes 'data.table' and 'data.frame':	2249775 obs. of  7 variables:
+ $ country_code: int  900 900 900 900 900 900 900 900 900 900 ...
+ $ name        : chr  "World" "World" "World" "World" ...
+ $ year        : int  1949 1949 1949 1949 1949 1949 1949 1949 1949 1949 ...
+ $ age         : int  0 1 2 3 4 5 6 7 8 9 ...
+ $ popM        : num  40782 36206 33707 31793 28718 ...
+ $ popF        : num  39046 34758 32321 30518 27600 ...
+ $ pop         : num  79828 70964 66028 62311 56318 ...
+ - attr(*, ".internal.selfref")=<pointer: 0x56292741e5e0> 
+```
+
+
 fin
 
 ::::::::::::::::::::::::::::::::::::: keypoints 
